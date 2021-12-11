@@ -4,7 +4,7 @@ let circleY = 250;
 let speedX = 7;
 let speedY = 6;
 
-let circleSize = 150;
+let circleSize = 50;
 
 function setup() {
   // put setup code here
