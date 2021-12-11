@@ -20,10 +20,10 @@ function draw() {
   circleX=circleX+speedX;
   circleY=circleY+speedY;
 
-  if(circleX<circleSize/2 || circleX>990-circleSize/2){
+  if(circleX<circleSize/2 || circleX>windowWidth-circleSize/2){
     speedX=speedX*-1;
     fill(random(255), random(255), random(255));
-  } else if(circleY<circleSize/2 || circleY>800-circleSize/2){
+  } else if(circleY<circleSize/2 || circleY>windowHeight-circleSize/2){
     speedY=speedY*-1;
     fill(random(255), random(255), random(255));
   }
